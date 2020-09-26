@@ -24,6 +24,7 @@ defaultLayout inner = H.docTypeHtml ! A.lang "en" $ [hsx|
 <body>
     <div class="container mt-4">
         {renderFlashMessages}
+        <h1 class="mb-5"><a class="blog-title" href={PostsAction}>Blog Title</a></h1>
         {inner}
     </div>
 </body>
